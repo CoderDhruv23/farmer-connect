@@ -1,0 +1,22 @@
+{
+    "name": "farmer-connect-backend",
+    "version": "1.0.0",
+    "description": "Backend for the Farmer Connect web app",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js",
+      "server": "nodemon server.js"
+    },
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+      "cors": "^2.8.5",
+      "dotenv": "^16.0.1",
+      "express": "^4.18.1",
+      "mongoose": "^6.5.2"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.19"
+    }
+  }
+  
